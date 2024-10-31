@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num = 15
+
+        function multiplo(num){
+            let multiplo3 = (num % 3 === 0)
+            let multiplo5 = (num % 5 === 0)
+
+            if (multiplo3 && multiplo5){
+                alert(num + ' é multiplo de 3 e de 5!')
+            } else {
+                alert(num + ' não é multiplo de 3 e de 5!')
+            }
+        }
+        multiplo(num)
+
+    </script>
+</body>
+</html>
